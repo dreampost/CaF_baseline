@@ -47,8 +47,10 @@
             ]
         },
         "deniedResourceTypes": {
-            "type": "array"
-            "defaultvalue": "Microsoft.Automation/automationAccounts"
+            "type": "array",
+            "defaultvalue": [
+                "Microsoft.Automation/automationAccounts"
+            ]
         },
         "costCenterTagName": {
             "type": "string",
