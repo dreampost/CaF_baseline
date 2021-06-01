@@ -48,6 +48,7 @@
         },
         "deniedResourceTypes": {
             "type": "array"
+            "defaultvalue": "Microsoft.Automation/automationAccounts"
         },
         "costCenterTagName": {
             "type": "string",
@@ -55,7 +56,7 @@
         },
         "costCenterTagValue": {
             "type": "string",
-            "defaultValue": ""
+            "defaultValue": "c2c2dd1d-996f-4518-b89e-242cab4a9d5e"
         },
         "allowedStorageSkus": {
             "type": "array",
