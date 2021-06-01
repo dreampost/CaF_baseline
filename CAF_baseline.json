@@ -49,13 +49,9 @@
         },
         "deniedResourceTypes": {
             "type": "array",
-            "metadata": {
-                "displayName": "Select the Azure Resource Types that you will DENY",
-                "description": "Policy_Resource-Types-DENY",
-             },
             "defaultValue": [
                 "Microsoft.Automation/automationAccounts",
-		        "Microsoft.Network/publicIPAddresses"
+		"Microsoft.Network/publicIPAddresses"
             ]
         },
         "costCenterTagName": {
