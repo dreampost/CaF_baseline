@@ -14,22 +14,11 @@
         "objectIdForAccessPolicy": {
             "value": "c2c2dd1d-996f-4518-b89e-242cab4a9d5e" // TODO: Fill in parameter value
         },
-        "deniedResourceTypes": {
-            "value": [
-                "Microsoft.Automation/automationAccounts"
-            ]
-        },
         "costCenterTagName": {
             "value": "costcenter"
         },
         "costCenterTagValue": {
             "value": "sandbox" // TODO: Fill in parameter value
-        },
-        "allowedStorageSkus": {
-            "value": [
-                "Standard_GRS",
-                "Standard_LRS"
-            ]
         }
     }
 }
