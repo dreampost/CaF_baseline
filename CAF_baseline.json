@@ -59,7 +59,7 @@
         },
         "allowedStorageSkus": {
             "type": "string",
-            "allowedValues": [
+            "defaultValue": [
                 "Pemium_LRS",
                 "Premium_ZRS",
                 "Standard_GRS",
