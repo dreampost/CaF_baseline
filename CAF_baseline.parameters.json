@@ -12,7 +12,7 @@
             "value": "" // TODO: Fill in parameter value
         },
         "objectIdForAccessPolicy": {
-            "value": "" // TODO: Fill in parameter value
+            "value": "c2c2dd1d-996f-4518-b89e-242cab4a9d5e" // TODO: Fill in parameter value
         },
         "deniedResourceTypes": {
             "value": [
