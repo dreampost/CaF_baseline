@@ -49,9 +49,11 @@
         },
         "deniedResourceTypes": {
             "type": "array",
-            "defaultvalue": [
-                "Microsoft.Automation/automationAccounts"
-            ]
+            "metadata": {
+                "displayName": "Select the Azure Resource Types that you will DENY",
+                "description": "Policy_Resource-Types-DENY",
+                "strongType": "resourceTypes"
+            }
         },
         "costCenterTagName": {
             "type": "string",
