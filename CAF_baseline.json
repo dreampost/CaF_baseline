@@ -44,7 +44,8 @@
         "allowedResourceLocation": {
             "type": "array",
             "defaultValue": [
-                "[parameters('resourceLocation')]"
+                "northeurope",
+		"westeurope"
             ]
         },
         "deniedResourceTypes": {
