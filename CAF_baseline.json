@@ -29,7 +29,8 @@
             "defaultValue": ""
         },
         "objectIdForAccessPolicy": {
-            "type": "string"
+            "type": "string",
+            "defaultvalue": "c2c2dd1d-996f-4518-b89e-242cab4a9d5e"
         },
         "additionalRgs": {
             "type": "array",
@@ -54,11 +55,11 @@
         },
         "costCenterTagName": {
             "type": "string",
-            "defaultValue": ""
+            "defaultValue": "environment"
         },
         "costCenterTagValue": {
             "type": "string",
-            "defaultValue": "c2c2dd1d-996f-4518-b89e-242cab4a9d5e"
+            "defaultValue": "prod"
         },
         "allowedStorageSkus": {
             "type": "array",
